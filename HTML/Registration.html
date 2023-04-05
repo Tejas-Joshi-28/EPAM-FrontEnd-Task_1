@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="/HTML/Registration.css">
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+     <div class="header">
+        <h1>Registration From</h1>
+        <h4>Student Details :- </h4>
+        <div>
+            <label for="First_Name" id="F_Name">First Name :- 
+                <input type="text" name="First_Name" id="">
+            </label>
+        </div>
+        <div>
+            <label for="Last_Name" id="L_Name">Last Name :- 
+                <input type="text" name="Last_Name" id="">
+            </label>
+        </div>
+        <div>
+            <label for="Gender" id="Gender_Name">Gender :- 
+                <input type="radio" name="Gender" id="Male">Male
+                <input type="radio" name="Gender" id="Female">Female
+            </label>
+        </div>
+        <div>
+            <label class="Select_State" for="First">State :- </label>
+                <select name="" id="First">  <!--name is used for backend saving i.e. if we select India then 'In' is save in name-->
+                        <option value="In">Maharastra</option>  <!--value is used for backend-->
+                        <option value="Ru">Utterpradesh</option>
+                        <option value="Ch">Goa</option>
+                        <option value="Af">Panjab</option>
+                        <option value="Br">Karnataka</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label class="Select_State" for="Number">PinCode :- </label>
+                <input type="number" name="Number" id="" title="#">
+            </label>
+            <label class="Select_Number" for="Number" style="margin-left: 20px;">Mobile No. :- </label>
+                <input type="number" name="Number" id="" title="#">
+            </label>
+        </div>
+        <div>
+            <label class="Select_State" for="Number">Interest :- </label>
+                <input type="checkbox" name="" id="Testing" style="" title="Software Testing">Testing
+                <input type="checkbox" name="" id="Development" title="Web Development">Development
+                <input type="checkbox" name="" id="Cloud" title="Cloud Computing">Cloud
+            </label>
+        </div>
+        <div>
+            <label class="Family_Information" for="Number" style="margin-left: 10px;">Family Information :- </label>
+                <table style="margin-left: 20px; margin-right: 20px">
+                    <tr >
+                        <th  style="border: 2px solid black; width:200px; padding-left:20px">Member Name</th>
+                        <th style="border: 2px solid black;  width:200px; padding-left:50px">Age</th>
+                        <th  style="border: 2px solid black;  width:200px; padding-left:50px">Gender</th>
+                        <th  style="border: 2px solid black;  width:200px; padding-left:40px">Relation</th>
+                    </tr>
+                    <tr>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                    </tr>
+                    <tr>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                    </tr>
+                    <tr>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                    </tr>
+                    <tr>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                        <td  style="border: 2px solid black; height: 20px"></td>
+                    </tr>
+                </table>
+            </label>
+                <button type="submit" title="Submit" style="color: white; backGround-color : green; margin-top: 20px; margin-left : 20px; margin-bottom: 20px" >Submit</button>
+                <button type="reset" title="Submit" style="color: white; backGround-color : red">Reset</button>
+        </div>
+     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
+</html>     
